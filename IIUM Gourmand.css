@@ -1,0 +1,340 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  position: center;
+}
+
+body {
+  width: 100%;
+  background-color: black;background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('background2.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  /* Setting a maximum width */
+  max-width: 1800px;
+
+  /* Setting a minimum height */
+  min-height: 700px;
+
+  /* Creating the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#all {
+  position: center;
+}
+
+#navArea {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+}
+
+#navbar {
+  list-style: none;
+  padding-right: 180px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.28);
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  height: 10%;
+  z-index: 1;
+}
+
+#navbar a{
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  outline: none;
+  color: white; font-family: 'Droid serif', serif; font-size: 25px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 44px;
+  margin: 0 0 12px;
+}
+
+#navbar a:hover {
+  color: rgb(155, 50, 0);
+  font-size: 25px;
+}
+
+#navbar a.active {
+  background-color: black;
+  color: brown;
+}
+
+#header {
+  width: auto;
+  background-color: black;
+  height: 10%;
+}
+
+.logo {
+  background-image: url("iium logo.png");
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  z-index: 2;
+  position: fixed;
+  left: 50px;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  outline:none;
+}
+
+.logo:hover {
+  outline:none;
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')";
+  filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand');
+}
+
+#main1 {
+  width: 100%;
+  height: 768px;
+  background-image: url('background3.jpg');
+  /* Setting a specific height */
+  min-height: 700px;
+
+  /* Creating the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main1 h1,h2 {
+  color: black;
+  text-shadow: 3px white;
+  text-shadow: 1px 1px 0 white,
+              -1px 1px 0 white,
+               1px -1px 0 white,
+              -1px -1px 0 white,
+               0px 1px 0 white,
+               0px -1px 0 white,
+              -1px 0px 0 white,
+               1px 0px 0 white,
+               2px 2px 0 white,
+              -2px 2px 0 white,
+               2px -2px 0 white,
+              -2px -2px 0 white,
+               0px 2px 0 white,
+               0px -2px 0 white,
+              -2px 0px 0 white,
+               2px 0px 0 white,
+               1px 2px 0 white,
+              -1px 2px 0 white,
+               1px -2px 0 white,
+              -1px -2px 0 white,
+               2px 1px 0 white,
+              -2px 1px 0 white,
+               2px -1px 0 white,
+              -2px -1px 0 white;
+}
+
+#frontpage {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 210px;
+}
+
+#frontpage h1 {
+  font-size: 58px;
+}
+
+#frontpage h2 {
+  font-size: 30px;
+}
+
+#button1 {
+  list-style: none;
+}
+
+#button1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Droid serif', serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 44px;
+  margin: 0 0 12px;
+}
+
+#button1 li {
+  float: left;
+  margin-left: 50px;
+  background-color: rgba(0, 0, 0, 0.28);
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin-top: 500px;
+  text-shadow: 1px 1px 0 black,
+              -1px 1px 0 black,
+               1px -1px 0 black,
+              -1px -1px 0 black,
+               0px 1px 0 black,
+               0px -1px 0 black,
+              -1px 0px 0 black,
+               1px 0px 0 black,
+               2px 2px 0 black,
+              -2px 2px 0 black,
+               2px -2px 0 black,
+              -2px -2px 0 black,
+               0px 2px 0 black,
+               0px -2px 0 black,
+              -2px 0px 0 black,
+               2px 0px 0 black,
+               1px 2px 0 black,
+              -1px 2px 0 black,
+               1px -2px 0 black,
+              -1px -2px 0 black,
+               2px 1px 0 black,
+              -2px 1px 0 black,
+               2px -1px 0 black,
+              -2px -1px 0 black;
+}
+
+#button1 li:hover {
+  background-color: rgb(155, 50, 0);
+}
+
+#main2 {
+  max-width: 100%;
+  height: 768px;
+  background-image: url('overlay1.jpg'), url('backgroundmain2.jpg'), url('backgroundlagi.jpg');
+  background-size: 65% 50%, 67% 53%, 100% 100%;
+  background-position: center, center, center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  margin-top: -50px;
+}
+
+#container1 {
+  text-align: center;
+  padding-top: 180px;
+  max-height: 400px;
+  max-width: 450px;
+  padding-left: 240px;
+  position: absolute;
+  display: inline-block;
+  float: left;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+  word-wrap: break-word;
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  line-height: 26px;
+  text-indent: 30px;
+  margin: 0;
+}
+
+#main3 {
+  padding-top: 50px;
+  width: 100%;
+  height: 450px;
+}
+
+#container1 h1 {
+  position: left;
+  text-align: center;
+  color: black;
+  text-shadow: 3px white;
+  text-shadow: 1px 1px 0 white,
+              -1px 1px 0 white,
+               1px -1px 0 white,
+              -1px -1px 0 white,
+               0px 1px 0 white,
+               0px -1px 0 white,
+              -1px 0px 0 white,
+               1px 0px 0 white,
+               2px 2px 0 white,
+              -2px 2px 0 white,
+               2px -2px 0 white,
+              -2px -2px 0 white,
+               0px 2px 0 white,
+               0px -2px 0 white,
+              -2px 0px 0 white,
+               2px 0px 0 white,
+               1px 2px 0 white,
+              -1px 2px 0 white,
+               1px -2px 0 white,
+              -1px -2px 0 white,
+               2px 1px 0 white,
+              -2px 1px 0 white,
+               2px -1px 0 white,
+              -2px -1px 0 white;
+  font-family: 'Blippo', fantasy;
+  margin-left: -225px;
+}
+
+.container2 a {
+  position: left;
+  text-align: left;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  color: maroon ;
+  text-shadow: 3px white;
+  margin: 10px;
+  padding-left: 55px;
+}
+
+#div.p {
+  color: black;
+}
+
+.overlay {
+  position: absolute;
+  margin-top: 110px;
+  padding-top: 0px;
+  width: 100%;
+  height: 530px;
+  background: url('overlay1.jpg');
+  background-repeat: repeat-x;
+}
+
+#footer {
+  background-color: rgba(0, 0, 0, 0.48);
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+  color: grey;
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  text-indent: 30px;
+  margin: 0;
+}
+
+#footer p {
+  color: grey;
+}
+
+.a1 {
+  margin: 10px 100px 10px 450px;
+}
