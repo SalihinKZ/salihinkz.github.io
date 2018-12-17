@@ -1,0 +1,39 @@
+body{
+  width: auto;
+  height: auto;
+  background-image: url("back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sun{
+  width: 60%;
+  background-color: rgba(16,120,150,0.8);
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  color: white;
+  line-height: 1.5em;
+  text-align: center;
+  font-style: italic;
+  box-shadow: 10px 10px grey;
+}
+
+#header{
+  margin: auto;
+  width: 60%;
+}
+
+h2{
+  font-style: normal;
+}
+h1{
+  font-size: 60px;
+  border-bottom: 3px solid;
+  border-width: thick;
+  text-align: center;
+  font-style: normal;
+}
